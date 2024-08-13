@@ -1,8 +1,12 @@
 # 数値シミュレーションを行うためには、細胞間の相互作用をモデル化し、そのダイナミクスを解析する必要があります。
 # NetworkXライブラリを用いて細胞間相互作用ネットワークを構築し、細胞間のシグナル伝達のダイナミクスをシミュレートします。
 
+```python
 #まず、NetworkXとNumPyをインストールする必要があります。これを行うには、以下のコマンドを実行します。
 pip install networkx numpy
+
+```
+```python
 import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
@@ -56,3 +60,5 @@ plt.ylabel('Activation State')
 plt.title('Cell Activation Dynamics')
 plt.legend()
 plt.show()
+
+```
