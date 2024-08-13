@@ -1,11 +1,10 @@
 # 細胞間相互作用ネットワークの構築と可視化を行うPythonプログラムを示します。
 #このプログラムでは、仮想データを用いて細胞間のシグナル伝達経路、接着分子、サイトカインの発現データを基にネットワークを構築し、可視化を行います。
 
-'''python
+```python
 pip install networkx matplotlib
-'''
-
-'''python
+```
+```python
 import networkx as nx
 import matplotlib.pyplot as plt
 
@@ -60,4 +59,4 @@ plt.legend(handles=[blue_patch, green_patch, red_patch], loc='best')
 
 # グラフの表示
 plt.show()
-'''
+```
