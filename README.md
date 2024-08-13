@@ -1,2 +1,3 @@
-# spatial-transcriptomics
-空間的遺伝子発現ソリューション(細胞間相互作用ネットワークの構築と可視化,細胞間の相互作用数値シミュレーションプログラム)
+# spatial-transcriptomicsと10x Genomics Xenium In Situ Data Analysis Toolsの概要
+空間的遺伝子発現ソリューション(細胞間相互作用ネットワークの構築と可視化,細胞間の相互作用数値シミュレーションプログラム)と
+10x GenomicsのXenium In Situデータ解析ツールに関するガイドで、Xenium Analyzerの使用後に行うべき解析の手順や利用可能なツールについて説明しています。
